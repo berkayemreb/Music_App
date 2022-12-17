@@ -6,7 +6,7 @@ const SongCard = ({ song }) => {
 
     return (
         <View style={styles.container}>
-            <Image style={styles.image} />
+            <Image style={styles.image} source={{ uri: song.imageUrl }} />
             <View style={styles.inner_container}>
                 <Text style={styles.title}> {song.title} </Text>
                 <View style={styles.info_container}>
