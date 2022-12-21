@@ -12,6 +12,11 @@ const SongCard = ({ song }) => {
                 <View style={styles.info_container}>
                     <Text style={styles.artist}> {song.artist} </Text>
                     <Text style={styles.year}> {song.year} </Text>
+                    {song.isPopuler ? (
+                        <View style={styles.populerContainer}>
+                            <Text style={styles.populerText}>Popüler</Text>
+                        </View>
+                    ) : null}
                 </View>
             </View>
         </View>

@@ -5,7 +5,7 @@
     "artist": "Metallica",
     "album": "Load",
     "year": 1996,
-    "isSoldOut": true,
+    "isPopuler": true,
     "imageUrl": "http://i.scdn.co/image/5a06711d7fc48d5e0e3f9a3274ffed3f0af1bd91"
   },
   {
@@ -14,7 +14,7 @@
     "artist": "King Crimson",
     "album": "In The Court Of The Crimson King",
     "year": 1969,
-    "isSoldOut": true,
+    "isPopuler": true,
     "imageUrl": "https://i.scdn.co/image/ab67616d0000b2730e36a62897cf3f5937bf9c16"
   },
   {
@@ -23,7 +23,7 @@
     "artist": "Neyse",
     "album": "Neyse",
     "year": 2011,
-    "isSoldOut": false,
+    "isPopuler": false,
     "imageUrl": "https://i.scdn.co/image/ab67616d0000b27363a94f6459d13c78bda9c872"
   },
   {
@@ -32,7 +32,7 @@
     "artist": "Anathema",
     "album": "Eternity",
     "year": 1996,
-    "isSoldOut": true,
+    "isPopuler": true,
     "imageUrl": "https://i.scdn.co/image/ab67616d0000b2736c62df3fa967ac4382b54147"
   },
   {
@@ -41,7 +41,7 @@
     "artist": "Matthew Perryman Jones",
     "album": "(Single)",
     "year": 2016,
-    "isSoldOut": false,
+    "isPopuler": false,
     "imageUrl": "https://i.scdn.co/image/ab67616d0000b27313f1a15c18f40a991691f3d6"
   },
   {
@@ -50,7 +50,7 @@
     "artist": "Tamino",
     "album": "Amir",
     "year": 2018,
-    "isSoldOut": false,
+    "isPopuler": false,
     "imageUrl": "https://i.scdn.co/image/f17ddfa246db1b8e1f681f658be732b0779d7ea2"
   },
   {
@@ -59,7 +59,7 @@
     "artist": "Jimi Hendrix",
     "album": "Electric Ladyland",
     "year": 1968,
-    "isSoldOut": true,
+    "isPopuler": true,
     "imageUrl": "https://i.scdn.co/image/ab67616d0000b273522088789d49e216d9818292"
   },
   {
@@ -68,7 +68,7 @@
     "artist": "Yavuz Çetin",
     "album": "Satılık",
     "year": 2001,
-    "isSoldOut": false,
+    "isPopuler": false,
     "imageUrl": "https://i.scdn.co/image/ab67616d0000b273fc78d57f01d3439af0cd172e"
   },
   {
@@ -77,7 +77,7 @@
     "artist": "Motörhead",
     "album": "Kiss of Death",
     "year": 2001,
-    "isSoldOut": false,
+    "isPopuler": false,
     "imageUrl": "https://i.scdn.co/image/ab67616d0000b273ae5941e5e616db0fc4dcd089"
   },
   {
@@ -86,7 +86,7 @@
     "artist": "Slipknot",
     "album": "All Hope Is Gone",
     "year": 2008,
-    "isSoldOut": true,
+    "isPopuler": true,
     "imageUrl": "https://i.scdn.co/image/ab67616d0000b273457163bec7e8e4decf8c6375"
   },
   {
@@ -95,7 +95,7 @@
     "artist": "Teoman",
     "album": "En Güzel Hikayem",
     "year": 2004,
-    "isSoldOut": false,
+    "isPopuler": false,
     "imageUrl": "https://i.scdn.co/image/ab67616d0000b2732611f7e8a56c4c213bc13965"
   },
   {
@@ -104,7 +104,7 @@
     "artist": "Kari Kimmel",
     "album": "Black",
     "year": 2015,
-    "isSoldOut": true,
+    "isPopuler": true,
     "imageUrl": "https://i.scdn.co/image/ab67616d0000b273e4e0a2e01d6b19a9384cb6f1"
   },
   {
@@ -113,7 +113,7 @@
     "artist": "Orphaned Land",
     "album": "All Is One",
     "year": 2013,
-    "isSoldOut": true,
+    "isPopuler": true,
     "imageUrl": "https://i.scdn.co/image/ab67616d0000b273bc44553f1ae3c1d22925e372"
   },
   {
@@ -122,7 +122,7 @@
     "artist": "Ghostly Kisses",
     "album": "(EP)",
     "year": 2018,
-    "isSoldOut": false,
+    "isPopuler": false,
     "imageUrl": "https://i.scdn.co/image/ab67616d0000b273fdf4e132227fa498e1688af9"
   },
   {
@@ -131,7 +131,7 @@
     "artist": "Şebnem Ferah",
     "album": "Od",
     "year": 2013,
-    "isSoldOut": false,
+    "isPopuler": false,
     "imageUrl": "https://i.scdn.co/image/ab67616d0000b273379476dcb16633eb518e4aa4"
   }
 ]
