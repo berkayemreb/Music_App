@@ -2,6 +2,7 @@ import React from 'react';
 import { SafeAreaView, StyleSheet, View, FlatList, Text } from 'react-native';
 import DATA_MUSIC from './music-data.json';
 import SongCard from './components/SongCard';
+import Search from './components/Search'
 
 const App = () => {
 
@@ -9,14 +10,13 @@ const App = () => {
   const renderSeperator = () => <View style={styles.seperator} />
   return (
     <SafeAreaView style={styles.container}>
-      <View>
+        <Search />
         <FlatList
           data={DATA_MUSIC}
           renderItem={renderSong}
           keyExtractor={item => item.id}
           ItemSeparatorComponent={renderSeperator} // bu property listedeki elemanları ayırmak için kullanılan bir propdur.  
         />
-      </View>
     </SafeAreaView>
   )
 
@@ -25,7 +25,8 @@ const App = () => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#e0e0e0'
+    backgroundColor: '#e0e0e0',
+    paddingTop: 30,
   },
   seperator: {
     borderWidth: 1,

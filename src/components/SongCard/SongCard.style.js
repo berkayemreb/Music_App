@@ -35,13 +35,12 @@ export default StyleSheet.create({
     },
     populerContainer: {
         borderWidth: 1,
-        borderColor: "#455b55",
+        borderColor: "#b61919",
         borderRadius: 9,
         marginLeft: "auto",
         padding: 6,
     },
     populerText: {
-        color: "#455b55"
-
+        color: "#b61919"
     }
 })
