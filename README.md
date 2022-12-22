@@ -18,7 +18,7 @@ It is a mobile application that allows us to view our favorite music in a list a
 
 -------------------------
 **<div align="center">NOTE</div>**
-The text 'popular' is displayed according to the popularity data in the JSON file.
+The text 'popüler' is displayed according to the popularity data in the JSON file.
 
 ----------------------
 *<div align="end"> - Author: [Berkay Emre BOĞUM](https://www.linkedin.com/in/berkayemreb/) </div>*
