@@ -1,13 +1,15 @@
 import React from 'react';
-import {View, TextInput} from 'react-native';
+import { View, TextInput } from 'react-native';
 import styles from './Search.styles'
-const Search = () => {
 
-    return(
+const Search = ({ onSearch }) => {
+    return (
         <View style={styles.container}>
-            <TextInput 
-            placeholder='Ara'
-            cursorColor='#b0b0b0'
+            <TextInput
+                placeholder='Şarkı İsmine Göre Ara'
+                cursorColor='#a0a0a0'
+                selectionColor='#c0c0c0'
+                onChangeText={onSearch}
             />
         </View>
     )

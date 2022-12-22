@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { SafeAreaView, StyleSheet, View, FlatList, Text } from 'react-native';
 import DATA_MUSIC from './music-data.json';
 import SongCard from './components/SongCard';
@@ -6,17 +6,30 @@ import Search from './components/Search'
 
 const App = () => {
 
+  const [list, setList] = useState(DATA_MUSIC);
+
   const renderSong = ({ item }) => <SongCard song={item} />
   const renderSeperator = () => <View style={styles.seperator} />
+
+  const handleSearch = (text) => {
+    const filteredList = DATA_MUSIC.filter(song => {
+      const searcedText = text.toLowerCase();
+      const currentTitle = song.title.toLowerCase();
+      return currentTitle.includes(searcedText);
+    })
+
+    setList(filteredList);
+  }
+
   return (
     <SafeAreaView style={styles.container}>
-        <Search />
-        <FlatList
-          data={DATA_MUSIC}
-          renderItem={renderSong}
-          keyExtractor={item => item.id}
-          ItemSeparatorComponent={renderSeperator} // bu property listedeki elemanları ayırmak için kullanılan bir propdur.  
-        />
+      <Search onSearch={handleSearch} />
+      <FlatList
+        data={list}
+        renderItem={renderSong}
+        keyExtractor={item => item.id}
+        ItemSeparatorComponent={renderSeperator} // bu property listedeki elemanları ayırmak için kullanılan bir propdur.  
+      />
     </SafeAreaView>
   )
 
