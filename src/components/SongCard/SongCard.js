@@ -14,7 +14,7 @@ const SongCard = ({ song }) => {
                     <Text style={styles.year}> {song.year} </Text>
                     {song.isPopuler ? (
                         <View style={styles.populerContainer}>
-                            <Text style={styles.populerText}>Popüler</Text>
+                            <Text style={styles.populerText}>Popular</Text>
                         </View>
                     ) : null}
                 </View>
